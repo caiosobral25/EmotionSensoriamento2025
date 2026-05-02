@@ -1,0 +1,21 @@
+Nome - Leonardo Nunes Assad Rodrigues 
+Arquivos - dashboard_v2 = arquivo feito no qt com c++ para desktop, neste arquivo temos o executavel (dentro de release) com todas as dlls necessarias para a execução, tambem possui todo o codigo usado para criar o programa que le e mostra a partir de um GUI os valores de rpm, torque e velocidade, alem de poder gerar um arquivo .csv com todos os dados salvos documentados.
+CodigoTesteArduino = codigo utilizado para gerar valores de rpm torque e velocidade, para que pudesse ser feito os testes com o dashboard_v2
+
+Desenvolvimento do Dashboard em Qt/C++
+
+Durante a primeira semana de desenvolvimento, foi possível concluir a estrutura principal de um dashboard utilizando a biblioteca Qt em C++. O objetivo do sistema é realizar a leitura de dados recebidos por comunicação serial e apresentar essas informações de forma dinâmica e organizada para o usuário.
+
+Nesta etapa, foi implementada com sucesso a captura e interpretação de três variáveis principais: velocidade, torque e RPM. Esses dados são atualizados continuamente no sistema com uma taxa de variação de 100 milissegundos, permitindo acompanhamento em tempo real do desempenho monitorado.
+
+Além da exibição numérica das variáveis, também foi desenvolvido um gráfico temporal capaz de representar as três grandezas em função do tempo. Essa funcionalidade possibilita uma análise visual mais detalhada do comportamento dos dados ao longo da execução.
+
+Outro avanço importante foi a implementação do recurso de armazenamento das informações em arquivos no formato .csv. Essa funcionalidade garante o registro dos dados coletados, permitindo consultas posteriores, análises externas e integração com outras ferramentas de processamento.
+
+Ao final da semana 1, o projeto já conta com:
+
+Comunicação serial funcional para leitura dos dados;
+Atualização em tempo real a cada 100 ms;
+Exibição de velocidade, torque e RPM na interface;
+Geração de gráficos em função do tempo;
+Exportação e salvamento dos dados em arquivos .csv.
