@@ -2,7 +2,7 @@
 
 // Definições de Hardware conforme S1
 #define CAN_TX_PIN 5
-#define CAN_RX_PIN 4
+#define CAN_RX_PIN 6
 #define LORA_RX 16
 #define LORA_TX 17
 
